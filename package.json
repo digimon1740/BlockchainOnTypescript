@@ -1,0 +1,15 @@
+{
+  "name": "BlockchainOnTypescript",
+  "version": "0.0.1",
+  "dependencies": {},
+  "main": "index.js",
+  "repository": "https://github.com/digimon1740/BlockchainOnTypescript",
+  "author": "Tony <digimon.1740@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start" : "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^1.0.21"
+  }
+}
